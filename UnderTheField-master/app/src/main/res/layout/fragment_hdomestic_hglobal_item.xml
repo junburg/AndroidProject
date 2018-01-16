@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/historyCard"
+
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/hCard"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:background="#FFF0EDEA"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:text="By"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hCardRec"
+                    android:layout_weight="0.6"
+                    android:gravity="right"
+                    android:textSize="16sp"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000"
+                    />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hCardUserName"
+                    android:layout_weight="0.5"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="Artist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hCardArtist"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:paddingRight="5dp" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hCardArtistName"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hCardTitle"
+                    android:layout_weight="1.1"
+                    android:gravity="right"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:paddingRight="5dp" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hCardTitleName"
+                    android:layout_marginBottom="7dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="Go Artist Page"
+                android:textStyle="bold"
+                android:textColor="#363636"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/goBtn"
+                android:layout_weight="1"
+                android:layout_below="@+id/hCardTitleName"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_design2"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

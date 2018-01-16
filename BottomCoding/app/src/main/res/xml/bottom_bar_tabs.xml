@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<tabs>
+    <tab
+        id="@+id/ranking_tab"
+        icon="@drawable/ic_format_list_numbered_black_24dp"
+        title="@string/ranking_tab_title">
+
+    </tab>
+
+    <tab
+        id="@+id/study_tab"
+        icon="@drawable/ic_border_color_black_24dp"
+        title="@string/study_tab_title">
+
+    </tab>
+
+    <tab
+        id="@+id/user_info_tab"
+        icon="@drawable/ic_person_black"
+        title="@string/user_info_tab_tittle">
+
+    </tab>
+</tabs>
+</PreferenceScreen>

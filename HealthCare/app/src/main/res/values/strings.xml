@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="start_time">Start time of exercise</string>
+    <string name="end_time">End time of exercise</string>
+    <string name="diff_start_end_time">Time of exercise</string>
+    <string name="set_time">Set Time</string>
+    <string name="set_list">Set List</string>
+
+</resources>

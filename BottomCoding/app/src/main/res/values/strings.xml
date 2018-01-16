@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BottomCoding</string>
+
+    <!-- Bottom Tabs Title -->
+    <string name="ranking_tab_title">랭킹</string>
+    <string name="study_tab_title">학습</string>
+    <string name="user_info_tab_title">내 정보</string>
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1048325624058",
+    "firebase_url": "https://appcopystudy.firebaseio.com",
+    "project_id": "appcopystudy",
+    "storage_bucket": "appcopystudy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048325624058:android:93b43011f782be5d",
+        "android_client_info": {
+          "package_name": "com.makeveryday.ahnjunhyeock.appcopystudy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048325624058-mkie9i5hnr8ht22rah7itra2tjgdiioa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.makeveryday.ahnjunhyeock.appcopystudy",
+            "certificate_hash": "f0b9a276dc5bf07e92aa4a12b2d325886ca2e355"
+          }
+        },
+        {
+          "client_id": "1048325624058-m8rg64c0ada6u0jbqq2qeiujf5cgm1jp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvZVW1qdh5Vr1LGOfVzZ_4TKprIiJrs5A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048325624058-m8rg64c0ada6u0jbqq2qeiujf5cgm1jp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

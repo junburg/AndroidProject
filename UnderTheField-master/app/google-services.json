@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "75239909254",
+    "firebase_url": "https://underthefield-ead4f.firebaseio.com",
+    "project_id": "underthefield-ead4f",
+    "storage_bucket": "underthefield-ead4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75239909254:android:58a3dcc04ff514f2",
+        "android_client_info": {
+          "package_name": "com.example.gyeongsuk.underthefield"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75239909254-f25n26i2d5i4rjo1d63er1nvst97m4ts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL3S7LmKgKlR9byl8kEzQ9HgG52JAROyo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gyeongsuk.underthefield.main.Domestic.DomesticFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="여러분이 추천해주신 '국내' 아티스트들의 멋진 음악들을 만나보세요"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:background="#00257b"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/domesticIntro"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/DomesticRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="140dp">
+
+    </android.support.v7.widget.RecyclerView>
+</FrameLayout>

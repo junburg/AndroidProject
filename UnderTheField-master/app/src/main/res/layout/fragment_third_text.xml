@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gyeongsuk.underthefield.start.ThirdTextFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IF YOU DON'T KNOW,"
+            android:layout_marginTop="250dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="23sp"
+            android:id="@+id/thirdText"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NOW YOU KNOW"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="23sp"
+            android:id="@+id/thirdText2"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/thirdText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</FrameLayout>

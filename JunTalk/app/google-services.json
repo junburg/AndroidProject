@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "118064297653",
+    "firebase_url": "https://juntalk-e8d16.firebaseio.com",
+    "project_id": "juntalk-e8d16",
+    "storage_bucket": "juntalk-e8d16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118064297653:android:e72e539c6b6a3334",
+        "android_client_info": {
+          "package_name": "com.makeveryday.ahnjunhyeock.juntalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118064297653-47j1thqns7r9jo2gf4g0aafu4cko08jf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.makeveryday.ahnjunhyeock.juntalk",
+            "certificate_hash": "f0b9a276dc5bf07e92aa4a12b2d325886ca2e355"
+          }
+        },
+        {
+          "client_id": "118064297653-qac505qpbg7mo7ds9tt8e6lrdl97rail.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKwQbx6do7IAwMgKNK4C--y7b6Vmmq3vs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118064297653-qac505qpbg7mo7ds9tt8e6lrdl97rail.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
